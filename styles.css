@@ -3,4 +3,35 @@
   margin-left: 20px; 
   margin-bottom: 20px; 
   width: 250px; 
+  border-color: rgb(236, 27, 12);
+  border-radius: 15px;
+  border-width: 4px;
+  border-style: solid;
+}
+#contain{
+  margin: auto;
+  padding: 8px;
+}
+p{
+  line-height: 1.5em;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+body{
+  background-color: #274060;
+  color: #CAD2C5;
+  font-family: sans-serif;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: inherit;
+}
+#cyp{
+  border:none;
 }
