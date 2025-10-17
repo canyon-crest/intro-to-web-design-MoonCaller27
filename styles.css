@@ -7,8 +7,10 @@
   border-radius: 15px;
   border-width: 4px;
   border-style: solid;
+  height: 150px;
 }
 #contain{
+  width:auto;
   margin: auto;
   padding: 8px;
 }
@@ -32,6 +34,36 @@ a:link{
 a:visited{
   color: inherit;
 }
+a:hover{
+  color: blue;
+}
 #cyp{
   border:none;
+}
+#sidebar{
+  float:right;
+  margin: 8px;
+  border-radius: 6px;
+  border-color: rgb(83, 221, 104);
+  border-radius: 15px;
+  border-width: 4px;
+  border-style: solid;
+  height: 150px;
+  padding: 10px 10px 20px 20px;
+  background: black;
+}
+@media (max-width:1200px){
+  #contain{
+     background-color: #374060;
+  }
+}
+@media (max-width:992px){
+  #contain{
+    background-color: #474060;
+  }
+}
+@media (max-width: 792px){
+  #contain{
+    background-color: black;
+  }
 }
