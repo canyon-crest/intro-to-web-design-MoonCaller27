@@ -8,8 +8,12 @@
    
 </head>
 <body>
-    <div class="content">
-        
+    <div id="contain">
+    <h1>Cryptography (back to <a href="index.html">Home</a>)</h1>
+    <h2>History</h2>
+    <p>The most notable exmaple of cryptography came when Julius Caesar encrypted his messages so that war communications could become more secure. This cipher worked by simply shifting letters by a certain amount of letters, known as the key. This cipher is extremely easy to understand, but is very vulnerable to brute force as there are only 26 possible encryptions. Later, there was the introduction of Vigenere's cipher: a variant of Caesar Cipher that involved shifting each letter a different amount of letters, which is given based on the key. For many years, this was proved almost unbreakable. However, there was frequency analysis due to repetition of the key which allowed for common words to be found in order to crack the message. Fast forwarding to more recent matters: during WW2 the Germans used a machine called the Enigma machine to encrypt and decrypt their messages. This would be computationally infeasible to brute force due to there being 159 quintillion possilbe combinations. The British mathematician Alan Turing was able to crack it due to the fact that no letter could encode to itself. This remarkable discovery allwoed the Allies to decyrpt German messages, thus winning them the war, saving almost 14 million lives.</p>
+    <h2>RSA</h2>
+    <p>In 1976, Whitfield Diffie and Martin Hellman created Diffie-Hellman key exchange, a method that allows two people to agree on a secret key without ever sharing their own personal private keys. This method was proven by mathematics to be a revolutionary development in online security. This discovery also paved the way for RSA, an algorithm that actually allows for encryption and decryption of messages. The thing about RSA is that it relies on the modulus being very hard to factor. Integer factorization is a computationally hard problem, so it will likely take a while to actually break the problem. However, Moore's Law tells us that computers are getting stronger and stronger. Soon, RSA might not be secure anymore.</p>
     </div>
 </body>
 </html>
