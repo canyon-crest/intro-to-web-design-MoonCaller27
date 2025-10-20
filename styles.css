@@ -27,6 +27,7 @@ body{
   background-color: #274060;
   color: #CAD2C5;
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 a:link{
   color: white;
@@ -52,18 +53,25 @@ a:hover{
   padding: 10px 10px 20px 20px;
   background: black;
 }
-@media (max-width:1200px){
-  #contain{
-     background-color: #374060;
+@media (max-width: 1200px) {
+  #contain {
+    max-width: 1200px; 
+    width: 100%; 
+    background-color: #374060;
   }
 }
-@media (max-width:992px){
-  #contain{
+
+@media (max-width: 992px) {
+  #contain {
+    max-width: 992px;
+    width: 100%;
     background-color: #474060;
   }
 }
-@media (max-width: 792px){
-  #contain{
+
+@media (max-width: 792px) {
+  #contain {
     background-color: black;
+    width: 95%; 
   }
 }
